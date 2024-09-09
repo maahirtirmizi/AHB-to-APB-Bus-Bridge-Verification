@@ -13,6 +13,6 @@ The primary objective is to verify that the data sent by the AHB Master is corre
 Bridge Operations
 The AHB-to-APB bridge is responsible for the following tasks:
 
-Address Latching: Latches the address and holds it valid throughout the transfer.
+Address Latching: Latches the address and holds it valid throughout the transfer. 
 Address Decoding: Decodes the address to generate the appropriate peripheral select signal. Only one select signal is active during each transfer.
 Data Transfer: Drives data onto the APB bus during write operations and drives data from the APB bus onto the system bus during read operations.
